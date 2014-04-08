@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background: url("../img/background.png");
+  background-size: cover;
+}
+
+h1 {
+  color: #777;
+  background: #ccc;
+  border-bottom: 1px dotted #333;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+}
+h2, h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h2 {
+  color: #ccc;
+  background: #333;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+}
+h3 {
+  color: #333;
+}
+
+#content {
+  margin: 25px;
+}
+
+
+li {
+  color: #333;
+}
+li:nth-child(2n) {
+  background-color: #ccc;
+}
