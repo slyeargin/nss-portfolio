@@ -34,12 +34,34 @@ h3 {
 
 #content {
   margin: 25px;
+  vertical-align: top;
 }
 
+#sidebar {
+  float: left;
+  width: 20%;
+  margin: 0 15px;
+}
 
-li {
-  color: #333;
+#projects {
+  vertical-align: inherit;
+  float: left;
+  width: 60%;
 }
-li:nth-child(2n) {
-  background-color: #ccc;
+
+.screenshot {
+  float: left;
+  width: 275px;
+  height: auto;
+  margin: 0 25px 25px 0;
 }
+
+#projects .technologies, .links {
+  background: #333;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+.links a { color: #fff; text-decoration: none; }
+.links a:visited, a:active { color: #999; }
+.links a:hover { color: #ccc; }
