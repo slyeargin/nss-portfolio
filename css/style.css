@@ -49,6 +49,11 @@ h3 {
   width: 60%;
 }
 
+#projects > div:after{
+ content: ""; 
+ clear: both;
+}
+
 .screenshot {
   float: left;
   width: 275px;
