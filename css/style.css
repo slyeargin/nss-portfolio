@@ -50,8 +50,9 @@ h3 {
 }
 
 #projects > div:after{
- content: ""; 
- clear: both;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .screenshot {
