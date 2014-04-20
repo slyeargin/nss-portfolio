@@ -5,25 +5,39 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: auto;
-  background: #ddd;
+/*  background: #ddd;*/
+}
+
+a {
+  color: rgba(121, 216, 225, 1);
+  font-weight: bold;
+}
+
+a:active {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:visited {
+  color: rgba(121, 216, 225, 0.8);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.photo {
+  display: inline-block;
 }
 
 h1 {
-  color: #777;
-  background: #ccc;
-  border-bottom: 1px dotted #333;
   font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: bold;
   text-align: center;
   margin: auto;
   padding: 10px 0;
 }
-h2, h3 {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
+
 h2 {
-  color: #ccc;
-  background: #333;
   text-align: center;
   margin: auto;
   padding: 10px 0;
@@ -60,14 +74,20 @@ h3 {
   width: 275px;
   height: auto;
   margin: 0 25px 25px 0;
+  border: 1px dotted #eee;
 }
 
 #projects .technologies, .links {
-  background: #999;
+  background: #eee;
+  color: #666;
   width: 100%;
   padding: 10px;
   margin: 0;
 }
-.links a { color: #fff; text-decoration: none; }
+/*.links a { color: #fff; text-decoration: none; }
 .links a:visited, a:active { color: #333; }
-.links a:hover { color: #ccc; }
+.links a:hover { color: #ccc; }*/
+
+ul {
+list-style-position:inside;
+}
