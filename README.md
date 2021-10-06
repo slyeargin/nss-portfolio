@@ -1,4 +1,4 @@
-# Portfolio for Samantha Yeargin
+# [Portfolio for Samantha Yeargin](http://slyeargin.github.io)
 
 ### Technologies in this repo
 * HTML5
