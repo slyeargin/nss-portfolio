@@ -1,4 +1,4 @@
-# [Portfolio for Samantha Yeargin](http://slyeargin.github.io)
+# [Portfolio for Samantha Yeargin](http://slyeargin.github.io/nss-portfolio)
 
 ### Technologies in this repo
 * HTML5
